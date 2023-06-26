@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand navbar-dark navcolor  px-2 ">
+    <div class="side-nav-button p-2 h2 me-3 text-dark" (click)="sideNavToggle() ">
+        <i class="fa-solid fa-bars " ></i>
+    </div>
+    <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="" width="150" height="50">
+      </a>
+     
+      <div class="navbar-collapse ms-5">
+        <ul class="navbar-nav ms-auto">
+            <form action="" class="d-flex ms-auto" >
+                <input type="form-control me-2 px-5  " type="search" placeholder="search">
+                <button class="btn btn-outline-light btn-outline-rounded text-center text-dark px-4 mx-2" type="submit">search</button>
+              </form>
+            <li class="nav-item dropdown px-5 text-dark">
+          <a class="nav-link dropdown-toggle text-dark h4" href="" role="button" data-bs-toggle="dropdown">adminaccoun<i class="fa-solid fa-circle-user ms-2 "></i></a>
+          <ul class="dropdown-menu dropdown-menu-dark  mx-3">
+            <li><a class="dropdown-item" href="#">profile</a></li>
+
+            <li><a class="dropdown-item" href="#">logout</a></li>
+            
+          </ul>
+        </li>
+        </ul>
+      </div>
+
+</nav>
