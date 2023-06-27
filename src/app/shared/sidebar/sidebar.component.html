@@ -1,21 +1,21 @@
  <div class="side-nav-content">
     <ul class="nav-list list-unstyled mx-3 py-3 " [ngClass]="{'nav-list-open':sideNavStatus}">
-        <a href=""><li class="nav-list-item h6">
+        <a href="" [routerLink]="['/bCategory']"><li class="nav-list-item h6">
             <i class="fa-solid fa-city fa-beat mx-3 my-2 "></i>Business Category
         </li></a>
-        <a href="" ><li class="nav-list-item h6">
+        <a [routerLink]="['/vendor']"><li class="nav-list-item h6">
             <i class="fa-solid fa-user fa-beat mx-3 p-1 my-2"></i>Vendors
         </li></a> 
-        <a href="" ><li class="nav-list-item h6">
+        <a [routerLink]="['/category']" ><li class="nav-list-item h6">
             <i class="fa-solid fa-layer-group fa-beat mx-3 my-2"></i>Category
         </li></a>
-        <a href="" ><li class="nav-list-item h6">
+        <a [routerLink]="['/subcategory']" ><li class="nav-list-item h6">
             <i class="fa-solid fa-file  fa-beat mx-3 p-1 my-2"></i>Subcategory
         </li></a> 
-        <a href="" ><li class="nav-list-item h6">
+        <a [routerLink]="['/services']" ><li class="nav-list-item h6">
             <i class="fa-solid   fa-wifi fa-beat  mx-3 my-2"></i>Services
         </li></a>
-        <a href="" ><li class="nav-list-item h6">
+        <a href=""[routerLink]="['/order']" ><li class="nav-list-item h6">
             <i class=" fa-sharp fa-solid fa-cart-plus fa-beat  mx-3 my-2"></i>Orders
         </li></a>
 
