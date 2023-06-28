@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { CustomTableComponent } from './shared/custom-table/custom-table.component';
+import { DataTablesModule } from 'angular-datatables';
 
 
 
@@ -14,11 +16,13 @@ import { HeaderComponent } from './shared/header/header.component';
     SidebarComponent,
     HeaderComponent,
     
+    
   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DataTablesModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
